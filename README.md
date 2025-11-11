@@ -1,1 +1,0 @@
-# takahara-azusa_STEP6
