@@ -1,31 +1,68 @@
-
-#wrapper {
-    max-width: 1000px;
-    margin:()auto;
+/* 全体 */
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
 }
 
+/* ヘッダー */
+header{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+/* サイドバー */
 .content-area {
     display: flex;
+    margin-bottom: 10px;
 }
 
 aside {
     width: 250px;
-    background-color: lightgreen;
+    background-color: lightblue;
     padding: 20px;
 }
 
+/* メイン */
 main {
     flex-grow: 1;
-    background-color: #fff8el;
+    background-color: #f8f8f8;
     padding: 20px;
-}
 
-th {
-    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main form{
+    width: 100%;
+    max-width: 800px;
     display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main form table{
+   width: 100%;
+}
+
+main form input{
+    margin-top: 10px;
+}
+th{
+    background-color: f0f0f0;
+}
+td input[type="text"]
+td textarea{
+    width: 95%;
+}
+
+footer{
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
 }

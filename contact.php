@@ -11,12 +11,12 @@
 
 <body>
     <div id="wrapper">
-    <!--お問い合わせフォームはheaderとする、h2タグ-->
+<!--お問い合わせフォームはheaderとする、h2タグ-->
         <header>
             <h2>お問い合わせフォーム</h2>
         </header>
-
-<!--sidebarはリンク、・トップページ・人気投稿・エンジニアのおすすめ商品・記事投稿ページ-->
+    <div class="content-area">
+        <!--sidebarはリンク、・トップページ・人気投稿・エンジニアのおすすめ商品・記事投稿ページ-->
         <aside>
             <ul>
                 <li><a href="#">トップページ</a></li>
@@ -31,7 +31,7 @@
         <main>
         <div id="error-message" style="color: red;"></div>
 
-            <form action="confirm.php" method="POST" id="contactForm" >
+             <form action="confilm.php" method="POST" id="contactForm" >
 <!--テーブル枠線の太さ=3px-->
                 <table border="3">
 <!--お名前、会社名、メールアドレス、年齢→テキストボックス横幅半角40字
@@ -56,14 +56,13 @@
                         <th>お問い合わせ内容</th>
                         <td><textarea name="message" id ="message"></textarea></td>
                     </tr>
-                </table>
-                
+                 </table>
 <!--送信ボタン→inputタグ、属性値をつける、「送信」-->
-                <br>
-                <input type="submit" value="送信">
-            </form>
-        </main>
-
+                    <br>
+                 <input type="submit" value="送信">
+             </form>
+         </main>
+     </div>
 
 <!--footer内にボタン→「押してみてね！」-->
         <footer>

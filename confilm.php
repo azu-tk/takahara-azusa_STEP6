@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-//titleはお問い合わせフォーム-確認画面
+<!--titleはお問い合わせフォーム-確認画面-->
     <title>お問い合わせフォーム-確認画面</title>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
 
 <body>
     <div id="wrapper">
-//お問い合わせフォーム-確認画面はheaderとする、h2タグ
+<!--お問い合わせフォーム-確認画面はheaderとする、h2タグ-->
         <header>
             <h2>お問い合わせフォーム-確認画面</h2>
         </header>
@@ -48,10 +48,10 @@
 
         <main>
             <form action="send.php" method="POST">
-//テーブル枠線の太さ=3px
+<!--テーブル枠線の太さ=3px-->
                 <table border="3">
-//お名前、会社名、メールアドレス、年齢、お問い合わせ内容→contact.phpから取得
-//*バックエンド* 受け取ったデータをテーブル形式で表示、特殊文字エスケープ処理
+<!--お名前、会社名、メールアドレス、年齢、お問い合わせ内容→contact.phpから取得
+バックエンド 受け取ったデータをテーブル形式で表示、特殊文字エスケープ処理-->
                     <tr>
                         <th>お名前</th>
                         <td><?php echo $name; ?></td>
@@ -73,8 +73,8 @@
                         <td><?php echo $message; ?></td>
                     </tr>
                 </table>
-//送信ボタン→inputタグ、属性値をつける、「送信」戻るボタン→history.back
-//*バックエンド* 特殊文字エスケープ処理、hiddenフィールド
+<!--送信ボタン→inputタグ、属性値をつける、「送信」戻るボタン→history.back
+バックエンド 特殊文字エスケープ処理、hiddenフィールド-->
                 <br>
                 <input type="hidden" name="name" value="<?php echo htmlspecialchars($name); ?>">
                 <input type="hidden" name="companyName" value="<?php echo htmlspecialchars($companyName); ?>">
@@ -88,7 +88,7 @@
 
             </form>
         </main>
-//footerボタンなし
+<!--footerボタンなし-->
         <footer>
 
         </footer>
