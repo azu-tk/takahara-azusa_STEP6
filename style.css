@@ -1,1 +1,31 @@
 
+#wrapper {
+    max-width: 1000px;
+    margin:()auto;
+}
+
+.content-area {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #fff8el;
+    padding: 20px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+main form{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
