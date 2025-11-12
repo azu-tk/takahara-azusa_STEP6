@@ -22,7 +22,7 @@ header{
 
 aside {
     width: 250px;
-    background-color: lightblue;
+    background-color: lightgreen;
     padding: 20px;
 }
 
@@ -65,5 +65,5 @@ footer{
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: center;
 }
