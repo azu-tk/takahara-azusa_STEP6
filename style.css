@@ -17,6 +17,7 @@ header{
 .content-area {
     display: flex;
     margin-bottom: 10px;
+    align-items: flex-start;
 }
 
 aside {
@@ -52,9 +53,9 @@ main form input{
     margin-top: 10px;
 }
 th{
-    background-color: f0f0f0;
+    background-color: #f0f0f0;
 }
-td input[type="text"]
+td input[type="text"],
 td textarea{
     width: 95%;
 }
