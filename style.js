@@ -49,7 +49,7 @@ colorChangeButton.addEventListener('click',function(){
 //④未入力チェック関数
 function validateForm(){
 
-//フォームの値を取得
+//フォームの値を取得 trim()＝余分なスペースを消す
   const name = document.getElementById("name").value.trim();
   const companyName = document.getElementById("companyName").value.trim();
   const email = document.getElementById("email").value.trim();

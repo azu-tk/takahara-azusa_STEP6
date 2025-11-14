@@ -34,7 +34,7 @@
             <h2>お問い合わせフォーム-確認画面</h2>
         </header>
 
-        //sidebarはリンク、・トップページ・人気投稿・エンジニアのおすすめ商品・記事投稿ページ
+        <!--sidebarはリンク、・トップページ・人気投稿・エンジニアのおすすめ商品・記事投稿ページ-->
         <aside>
             <ul>
                 <li><a href="#">トップページ</a></li>
@@ -76,11 +76,11 @@
 <!--送信ボタン→inputタグ、属性値をつける、「送信」戻るボタン→history.back
 バックエンド 特殊文字エスケープ処理、hiddenフィールド-->
                 <br>
-                <input type="hidden" name="name" value="<?php echo htmlspecialchars($name); ?>">
-                <input type="hidden" name="companyName" value="<?php echo htmlspecialchars($companyName); ?>">
-                <input type="hidden" name="email" value="<?php echo htmlspecialchars($email); ?>">
-                <input type="hidden" name="age" value="<?php echo htmlspecialchars($age); ?>">
-                <input type="hidden" name="message" value="<?php echo htmlspecialchars($message); ?>">
+                <input type="hidden" name="name" value="<?php echo ($name); ?>">
+                <input type="hidden" name="companyName" value="<?php echo ($companyName); ?>">
+                <input type="hidden" name="email" value="<?php echo ($email); ?>">
+                <input type="hidden" name="age" value="<?php echo ($age); ?>">
+                <input type="hidden" name="message" value="<?php echo ($message); ?>">
             
                 <input type="submit" value="送信">
                 <button type="button"

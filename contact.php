@@ -31,7 +31,7 @@
         <main>
         <div id="error-message" style="color: red;"></div>
 
-             <form action="confilm.php" method="POST" id="contactForm" >
+             <form action="confirm.php" method="POST" id="contactForm" >
 <!--テーブル枠線の太さ=3px-->
                 <table border="3">
 <!--お名前、会社名、メールアドレス、年齢→テキストボックス横幅半角40字
