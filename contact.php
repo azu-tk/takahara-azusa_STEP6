@@ -70,5 +70,6 @@
         </footer>
     
     </div>
+    <script src="style.js"></script>
 </body>
 </html>
